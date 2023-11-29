@@ -24,7 +24,7 @@ export default function RootLayout({
       <body className={font.className}>
         <SupabaseProvider>
           <UserProvider>
-            <ModalProvider/>
+            <ModalProvider />
             <Sidebar>
               {children}
             </Sidebar>
