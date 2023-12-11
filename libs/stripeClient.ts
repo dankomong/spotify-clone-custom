@@ -10,4 +10,4 @@ export const getStripe = () => {
     }
 
     return stripePromise;
-}
+};

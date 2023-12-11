@@ -77,7 +77,7 @@ export async function POST(request: Request) {
             }
         } catch (error) {
             console.log(error);
-            return new NextResponse('Webhook error', { status: 400 });
+            return new NextResponse('Webhook error: Webhook handler failed. View logs."', { status: 400 });
         }
     }
 
